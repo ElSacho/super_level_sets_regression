@@ -1,0 +1,17 @@
+{
+    "load_name": "rf1",
+    "dtype": "float32",
+    
+    "hidden_dim": 256,
+    "n_hidden_layers": 3,
+
+    "batch_size": 100,
+    "num_epochs": 500,
+
+    "lr": 5e-4,
+
+    "prop_train": 0.6,
+    "prop_stop": 0.05,
+    "prop_calibration": 0.05,
+    "prop_test": 0.3
+}
